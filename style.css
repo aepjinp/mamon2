@@ -1,0 +1,201 @@
+body{
+    font-family: 'ubuntu' , sans-serif;
+}
+.header{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    font-weight: 700 ;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-img{
+    display: block;
+    width: 58px;
+    height: 58px;
+    background-image: url(img/logotip.svg);
+    margin-right: 20px;
+}
+
+.logo-text{
+    font-size: 25px;
+    color: #202020;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav>li{
+    margin-left: 20px;
+}
+.nav>li>a{
+    text-decoration: none;
+    color: #202020;
+}
+.nav-btn{
+    background-color:#5528FF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.page{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.wrap{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.title-main{
+    font-size: 54px;
+    color: #202020;
+    font-weight: 700;
+}
+
+.text-main{
+    font-size: 32px;
+    line-height: 1.5;
+    color: #4F4F4F;
+}
+
+.button{
+    background-color: #5528FF;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-size: 24px;
+}
+
+.page-top{
+    border-top: 1px solid #C2C2C2;
+}
+
+.page h2{
+    position: absolute;
+    top: -28px;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 5px 15px;
+    color: #C2C2C2;
+}
+
+.services{
+    display: grid;
+    grid-template: 50% 50%/45% 50% ;
+
+}
+
+.services-item{
+    display: flex;
+    align-items: center;
+}
+
+.services-img{
+    flex-basis: 150px;
+    margin-bottom: 45px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.services-text{
+    flex-basis: 100%;
+}
+
+.services h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.services p{
+    font-size:17px;
+    color: #B2B2B2;
+    line-height: 1.8;
+}
+
+
+.clients{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    justify-items: center ;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.team-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.team-item img{
+    margin-right: 20px;
+    border-radius: 50px;
+}
+ .team-item h3{
+    font-size: 28px;
+    color: #202020;
+ }
+
+ .team-item p{
+    font-size: 16px;
+    color: #B2B2B2;
+    margin-bottom: 0;
+ }
+
+ .footer{
+    background-color: #f7f7f7;
+ }
+
+ .box-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+ }
+
+ .ul li{
+    margin-right: 45px;
+ }
+
+ .ul li a img{
+    width: 25px;
+    height: 25px;
+ }
